@@ -1,0 +1,40 @@
+Crie uma landing page para divulgação e venda dos meus produtos,
+quero hospedar a minha landing page na vercel. 
+
+
+resposta da IA:
+
+Criei uma landing page responsiva para a GLAU JESUS Aromas, com apresentação da marca, catálogo de produtos, seção para presentes e botões de contato pelo WhatsApp. Usei as imagens que você enviou e conferi a página no navegador: as imagens carregam, o menu mobile funciona e não há rolagem horizontal indesejada em telas pequenas ou grandes.
+
+Arquivos principais: index.html, styles.css e script.js.
+
+Antes de receber pedidos, configure o número da loja em WHATSAPP_NUMBER, no início de script.js, usando o formato internacional, só números — por exemplo, 5511999999999.
+
+Para publicar na Vercel, importe o projeto no painel da Vercel e selecione Other como framework, sem comando de build, usando . como diretório de saída. A página está preparada para hospedagem estática; não publiquei diretamente na sua conta.
+
+
+Corrigi o destaque: a arte “Perfume que transforma” agora aparece inteira, sem cortes, tanto na web quanto no celular.
+
+Também incluí “Voltar ao topo” nas três seções do menu: “A coleção”, “Nossa essência” e “Para presentear”. Testei esses retornos e a navegação no menu mobile.
+
+Reorganizei “Nossa essência” para deixar a descrição separada da arte, que agora aparece inteira, sem cortes. No celular, a imagem mantém suas proporções e pode ser aberta em tamanho original para facilitar a leitura. Também ajustei a proporção da foto do kit para evitar cortes.
+
+As prévias desktop e mobile estão acima. Verifiquei que as imagens carregam e que o layout não cria rolagem horizontal.
+
+Ajustei a coleção para reduzir o espaço entre a faixa animada e os produtos. A imagem do wax melts agora aparece inteira, sem cortar os dizeres; no celular, o card ocupa a largura disponível para melhorar a leitura. Também ajustei a proporção dos outros cards para encaixar melhor as fotos.
+
+Corrigi os links “Voltar ao topo” para levarem ao início real da página e confirmei o comportamento no mobile e no desktop. As prévias atualizadas estão acima.
+
+As prévias desktop e mobile estão acima. Arquivos atualizados: index.html e styles.css.
+
+
+
+Code serve para enviar as alterações ao GitHub; depois, a Vercel publica automaticamente quando recebe esse envio.
+
+Confirme que o projeto está em um repositório no GitHub. Se você já tem um fork desse projeto, pode conectar esse repositório; caso contrário, crie um repositório seu e envie os arquivos da pasta Landing_page para ele.
+Abra o projeto na Vercel e vá a Settings → Git → Connect Git Repository.
+Autorize o acesso ao GitHub, se solicitado, e selecione o repositório correto.
+Confirme a conexão. Para este site estático, mantenha a configuração de build sem comando e o diretório de saída como ..
+
+Depois, no VS Code, faça commit e push das alterações para o repositório conectado. A Vercel criará uma nova publicação; envios à branch de produção atualizam o site, e outras branches normalmente geram prévias.
+Importante: um fork só funciona se contiver os arquivos da sua landing page e se você tiver permissão para enviar alterações a ele.
